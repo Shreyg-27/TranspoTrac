@@ -1,6 +1,6 @@
 # Transpotrac
 
-## Driver Management System
+## Transport Management System
 
 A MERN stack application for managing drivers, users, and admins. The platform allows drivers to update their location, users to view driver details, and admins to manage the entire system.
 
