@@ -8,7 +8,7 @@ const axios = require('axios');
 const getCoordinates = async (address) => {
     try {
         const response = await axios.get(
-            `https://us1.locationiq.com/v1/search.php?key=pk.6ea8f47c759d6fefe91bf5cc743b881e&q=${encodeURIComponent(address)}&format=json`
+            `https://us1.locationiq.com/v1/search.php?key=API_KEY=${encodeURIComponent(address)}&format=json`
         );
 
         // Check if the response has results
